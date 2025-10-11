@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SpeedApplication</string>
+    <string name="main_ui_header">Well-come to speed adjust app</string>
+    <string name="select_file">Select file</string>
+    <string name="play_file">Play file</string>
+    <string name="edit_file">Edit file</string>
 </resources>

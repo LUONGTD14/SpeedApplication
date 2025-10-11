@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="10"
@@ -10,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Well-come to speed adjust app"
+        android:text="@string/main_ui_header"
         android:textSize="16sp"
         android:padding="10sp"
         android:layout_marginStart="10dp"
@@ -23,6 +21,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:baselineAligned="false"
         android:orientation="horizontal"
         android:paddingTop="10sp"
         android:weightSum="3">
@@ -35,7 +34,7 @@
                 android:id="@+id/btnFile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Select file"
+                android:text="@string/select_file"
                 android:textAllCaps="false"/>
         </LinearLayout>
         <LinearLayout
@@ -47,7 +46,7 @@
                 android:id="@+id/btnPlay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Play file"
+                android:text="@string/play_file"
                 android:textAllCaps="false"/>
         </LinearLayout>
         <LinearLayout
@@ -59,7 +58,7 @@
                 android:id="@+id/btnEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit file"
+                android:text="@string/edit_file"
                 android:textAllCaps="false"/>
         </LinearLayout>
     </LinearLayout>

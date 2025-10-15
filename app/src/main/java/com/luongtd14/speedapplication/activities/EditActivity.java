@@ -27,7 +27,7 @@ public class EditActivity extends AppCompatActivity {
     int width, height;
     float[] starts = {0f, 5f, 7f, 15f};
     float[] ends   = {5f, 7f, 15f, 999f};
-    float[] speeds = {1f, 0.25f, 1.5f, 1f};
+    float[] speeds = {1f, 0.5f, 1.5f, 1f};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class EditActivity extends AppCompatActivity {
                         "/sdcard/output_speed.mp4",
                         starts, ends, speeds
                 );
-                
+
             });
         }
     }
